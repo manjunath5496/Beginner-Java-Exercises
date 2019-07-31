@@ -75,7 +75,7 @@ System.out.println("The sum of a and b = " + sum);
 
 ```Java
 public class MyClass {
-public static void main(String [] args){
+public static void main(String [] args) {
 int a, b;
 a=2;
 b = a * a;
@@ -97,7 +97,7 @@ System.out.println("The square of a = " + b);
 
 ```Java
 public class MyClass {
-public static void main(String [] args){
+public static void main(String [] args) {
 int a, b;
 a=2;
 b =3;
@@ -126,7 +126,7 @@ System.out.println("b is greater than a");
 
 ```Java
 public class MyClass {
-public static void main(String[] args){
+public static void main(String[] args) {
 int i, avg, sum = 0;
 int [] num = {16, 18, 20, 25, 36};
 for(i=0; i<5; i++)
@@ -249,7 +249,7 @@ return 0;
 
 ```Java
 public class MyClass {
-public static void main(String[] args) throws Exception{
+public static void main(String[] args) throws Exception {
 int i;
 for( i=1; i<=10; i++)
 System.out.println(" \n number = " + i + " its square = " + i*i + " its cube = " + i*i*i);
