@@ -74,15 +74,13 @@ System.out.println("the sum of a and b = " + sum);
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-#include<math.h>
-int main()
-{
+public class MyClass {
+public static void main(String [] args){
 int a, b;
 a=2;
-b = pow((a), 2);
-printf("The square of a = %d", b);
-return 0;
+b = a * a;
+System.out.println("the square of a = " + b);
+}
 }
 ```
 ----------------------------------------
@@ -98,21 +96,20 @@ return 0;
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String [] args){
 int a, b;
-a = 2;
-b = 3;
+a=2;
+b =3;
 if(a>b)
 {
-printf("a is greater than b");
+System.out.println("a is greater than b");
 }
 else
 {
-printf("b is greater than a");
+System.out.println("b is greater than a");
 }
-return 0;
+}
 }
 ```
 ----------------------------------------
