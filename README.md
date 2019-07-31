@@ -1037,21 +1037,11 @@ System.out.println("" + i);
 <strong>Solution: </strong>
 
 ```Java
-#include <stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String[] args) {
    int num [] = {11, 22, 33, 44, 55, 66};
-    int n;
-
-    /* Calculating the size of the array with this formula.
-     * n = sizeof(array_name) / sizeof(array_name[0])
-     * This is a universal formula to find number of elements in
-     * an array, which means it will work for arrays of all data
-     * types such as int, char, float etc.
-     */
-    n = sizeof(num) / sizeof(num [0]);
-    printf("Size of the array is: %d\n", n);
-    return 0;
+	System.out.println("Size of the array is: " + num.length);
+}
 }
 ```
 ----------------------------------------
@@ -1175,14 +1165,13 @@ The name you entered = Denni
 ----------------------------------------
 
 ```Java
-#include <stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String[] args) {
 for( ; ; ) 
 {
-printf("This loop will run forever.\n");
+System.out.println("This loop will run forever.\n");
 }
-return 0;
+}
 }
 ```
 ----------------------------------------
