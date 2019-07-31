@@ -294,15 +294,16 @@ return 0;
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+import java.util.Scanner;
+public class MyClass {
+public static void main(String [] args) {
 int n, i;
-printf("Enter any number:");
-scanf("%d", &n);
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter a number: ");
+n = scan.nextInt();
 for( i=1; i<=5; i++)
-printf("%d * %d = %d\n", n, i, n*i);
-return 0;
+System.out.println (n + " * " + i + " = " + n * i);
+}
 }
 ```
 ----------------------------------------
@@ -319,14 +320,13 @@ return 0;
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String [] args) {
 int i, product = 1;
 for( i=1; i<=10; i++)
 product = product * i;
-printf("The product of the first 10 digits =%d", product);
-return 0;
+System.out.println("The product of the first 10 digits = " + product);
+}
 }
 ```
 ----------------------------------------
@@ -342,20 +342,19 @@ return 0;
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String [] args) {
 int a;
 a = -35;
 if(a>0)
 {
-printf("Number is positive");
+System.out.println("Number is positive");
 }
 else
 {
-printf(" Number entered is negative");
+System.out.println(" Number entered is negative");
 }
-return 0;
+}
 }
 ```
 ----------------------------------------
@@ -371,23 +370,24 @@ return 0;
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+import java.util.Scanner;
+public class MyClass {
+public static void main(String [] args) {
 int x, y;
-printf("Enter any number:");
-scanf ("%d", &x);
-printf("Enter any number:");
-scanf ("%d", &y);
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter a number: ");
+x = scan.nextInt();
+System.out.println("Enter a number: ");
+y = scan.nextInt();
 if(x-y==0)
 {
-printf("The two numbers are equivalent");
+System.out.println("The two numbers are equivalent");
 }
 else
 {
-printf("The number are not equivalent");
+System.out.println("The two numbers are not equivalent");
 }
-return 0;
+}
 }
 ```
 ----------------------------------------
@@ -403,17 +403,18 @@ return 0;
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+import java.util.Scanner;
+public class MyClass {
+public static void main(String [] args) {
 int a, b, c;
-printf("Enter any number:");
-scanf("%d", &a);
-printf("Enter any number:");
-scanf("%d", &b);
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter a number: ");
+a = scan.nextInt();
+System.out.println("Enter a number: ");
+b = scan.nextInt();
 c = a%b;
-printf("The remainder of a and b = %d", c);
-return 0;
+System.out.println("The remainder of a and b = " + c);
+}
 }
 ```
 ----------------------------------------
