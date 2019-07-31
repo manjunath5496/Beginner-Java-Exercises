@@ -605,7 +605,7 @@ String a;
 Scanner scan = new Scanner(System.in);
 System.out.print("Enter Your Name : ");
       a = scan.nextLine();
-System.out.println("The size of the String is: " + a.length());
+System.out.println("The length of the String is: " + a.length());
 }
 }
 ```
@@ -1143,14 +1143,15 @@ The value of y = 27
 ----------------------------------------
 
 ```Java
-#include<stdio.h>
-int main()
-{
-char ch [5];
-printf( "Enter the name: ");
-scanf("%s", &ch);
-printf( "The name you entered = %s", ch);
-return 0;
+import java.util.Scanner;
+public class MyClass {
+public static void main(String [] args) {
+String m;
+Scanner in = new Scanner(System.in);
+System.out.print("Enter the name: ");
+m = in.nextLine();
+System.out.println("The name you entered = " + m);
+}
 }
 ```
 ----------------------------------------
@@ -1160,7 +1161,7 @@ return 0;
 ```Java
 Enter the name:
 Dennis
-The name you entered = Denni
+The name you entered = Dennis
 ```
 ----------------------------------------
 
