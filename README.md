@@ -270,15 +270,14 @@ Output must be: ch = M.***
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
-char M;
-printf("Enter any character:");
-scanf("%c", &M);
-printf("ch=%c", M);
-return 0;
-} 
+public class MyClass {
+public static void main(String[] args) throws Exception {
+char c;
+System.out.print("Enter a character:");
+c = (char)System.in.read();
+System.out.println("ch= " + c);
+}
+}
 ```
 ----------------------------------------
 
