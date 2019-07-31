@@ -150,32 +150,31 @@ System.out.println("Average of the Elements in the array = " + avg);
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String[] args)throws Exception {
 char ch;
-printf("Enter any character:");
-scanf("%c", &ch);
+System.out.print("Enter a character:");
+ch = (char)System.in.read();
 switch(ch)
 {
 case 'R':
-printf("Red");
+System.out.print("Red");
 break;
 case 'W':
-printf("White");
+System.out.print("White");
 break;
 case 'Y':
-printf("Yellow");
+System.out.print("Yellow");
 break;
 case 'G':
-printf("Green");
+System.out.print("Green");
 break;
 default:
-printf("Error");
+System.out.print("Error");
 break;
 }
-return 0;
-} 
+}
+}
 ```
 ----------------------------------------
 
@@ -511,16 +510,15 @@ System.out.print("The decremented value of b = "+ f);
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String [] args) {
 int P,T, R, SI;
 P = 1000;
 T = 2;
 R = 3;
 SI = P*T*R/100;
-printf("The simple interest = %d", SI);
-return 0;
+System.out.println("The simple interest = " + SI);
+}
 }
 ```
 ----------------------------------------
@@ -1244,21 +1242,19 @@ Hello,world!
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String [] args) {
 int age;
-printf("Enter age:");
-scanf("%d", &age);
-if(age>=60)
+age=20;
+if(age>= 60)
 {
-printf("senior citizen");
+System.out.println("senior citizen");
 }
 else
 {
-printf("not a senior citizen");
+System.out.println("not a senior citizen");
 }
-return 0;
+}
 }
 ```
 ----------------------------------------
