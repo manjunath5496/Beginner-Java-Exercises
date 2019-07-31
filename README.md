@@ -572,7 +572,7 @@ return 0;
 
 ```Java
 import java.util.Scanner;
-public class HelloWorld{
+public class MyClass {
 public static void main(String []args){
 int i, n, fact=1 ;
 Scanner scan = new Scanner(System.in);
