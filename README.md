@@ -1190,12 +1190,12 @@ This loop will run forever. .........
 
 
 ```Java
-#include<stdio.h>
-int main()
-{
-printf("Hello,world!");
-return 0;
-printf("Hello,world!");
+public class MyClass {
+public static void main(String [] args) {
+System.out.println("Hello, World!");
+System.exit(0); 
+System.out.println("Hello, World!");
+}
 }
 ```
 ----------------------------------------
