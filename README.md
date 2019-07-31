@@ -985,16 +985,16 @@ return 0;
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String [] args) {
 int i = 1;
 while (i<=10)
 {
-printf("%d\n", i++);
+System.out.println("\n " + i++);
 }
-return 0;
 }
+}
+
 ```
 ----------------------------------------
 
