@@ -598,15 +598,15 @@ return 0;
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-#include<string.h>
-int main()
-{
-char ch[4];
-printf("Enter any word: ");
-scanf("%c", &ch);
-printf("The length of the string = %d", strlen(ch));
-return 0;
+import java.util.Scanner;
+public class MyClass {
+public static void main(String[] args) {
+String a;
+Scanner scan = new Scanner(System.in);
+System.out.print("Enter Your Name : ");
+      a = scan.nextLine();
+System.out.println("The size of the String is: " + a.length());
+}
 }
 ```
 ----------------------------------------
