@@ -1077,19 +1077,11 @@ System.out.println("" + i);
 ----------------------------------------
 
 ```Java
-#include <stdio.h>
-int main()
-{
-int i;
-for(i=1;i<=5;i++)
-{
-if(i==3)
-{
-goto HAI;
+public class MyClass {
+public static void main(String [] args) {
+int x = 2;
+System.out.println(" Square of a number = " + Math.pow((x), 2));
 }
-printf("\n %d ",i);
-}
-HAI : printf("\n Linux");
 }
 ```
 ----------------------------------------
@@ -1097,9 +1089,7 @@ HAI : printf("\n Linux");
 <strong>Solution: </strong>
 
 ```Java
-1
-2
-Linux
+Square of a number = 4.0
 ```
 ----------------------------------------
 
