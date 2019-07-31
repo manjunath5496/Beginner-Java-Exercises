@@ -182,32 +182,35 @@ break;
 
 ### **Question:**
 
-> ***Write a program to find the greatest of two numbers using pointers.***
+> ***Write a program to read 10 numbers from the keyboard and find their sum and average.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
-int x, y, *p, *q;
-printf("Enter any integer:");
-scanf("%d", &x);
-printf("Enter any integer:");
-scanf("%d", &y);
-p = &x;
-q = &y;
-if(*p>*q)
-{
-printf("x is greater than y");
+import java.util.Scanner;
+public class MyClass {
+public static void main(String [] args) {
+int N1, N2, N3, N4, N5, N6, N7, N8, N9, N10, sum;
+float X;
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter any ten Numbers: ");
+N1 = scan.nextInt();
+N2 = scan.nextInt();
+N3 = scan.nextInt();
+N4 = scan.nextInt();
+N5 = scan.nextInt();
+N6 = scan.nextInt();
+N7 = scan.nextInt();
+N8 = scan.nextInt();
+N9 = scan.nextInt();
+N10 = scan.nextInt();
+sum = N1 + N2 + N3 + N4 + N5 + N6 + N7 + N8 + N9 + N10;
+X = sum /10;
+System.out.println("The sum of 10 numbers = " + sum);
+System.out.println("The average of 10 numbers = " + X);
 }
-if(*q>*p)
-{
-printf("y is greater than x");
-}
-return 0;
 }
 ```
 ----------------------------------------
