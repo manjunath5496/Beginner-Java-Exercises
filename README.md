@@ -430,21 +430,22 @@ System.out.println("The remainder of a and b = " + c);
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+import java.util.Scanner;
+public class MyClass {
+public static void main(String [] args) {
 int a;
-printf("Enter any number:");
-scanf ("%d", &a);
-if(a%2 = = 0)
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter a number: ");
+a = scan.nextInt();
+if(a%2 == 0)
 {
-printf("The number is even");
+System.out.println("The number is even");
 }
 else
 {
-printf("The number is odd");
+System.out.println("The number is odd");
 }
-return 0;
+}
 }
 ```
 ----------------------------------------
@@ -460,13 +461,12 @@ return 0;
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String [] args) {
 char a;
 for( a='A'; a<='Z'; a++)
-printf("%c\n", a);
-return 0;
+System.out.println("\n " + a);
+}
 }
 ```
 ----------------------------------------
@@ -482,9 +482,8 @@ return 0;
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String [] args) {
 int a, b, c, d, e, f;
 a = 10;
 b=12;
@@ -492,11 +491,11 @@ c=a+1;
 d=b+1;
 e=a-1;
 f=b-1;
-printf("The incremented value of a =%d", c);
-printf("The incremented value of b =%d", d);
-printf("The decremented value of a =%d", e);
-printf("The decremented value of b =%d", f);
-return 0;
+System.out.print("The incremented value of a = "+ c);
+System.out.print("The incremented value of b = "+ d);
+System.out.print("The decremented value of a = "+ e);
+System.out.print("The decremented value of b = "+ f);
+}
 }
 ```
 ----------------------------------------
