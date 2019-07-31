@@ -9,11 +9,10 @@
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
-printf("Hello,world!");
-return 0;
+public class MyClass {
+public static void main(String [] args) {
+System.out.println("Hello, World!");
+}
 }
 ```
 ----------------------------------------
@@ -30,14 +29,13 @@ return 0;
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main (String [] args) {
 int r, area;
 r = 2;
 area = 4 * 3.14 * r * r;
-printf("The area of the circle = %d", area);
-return 0;
+System.out.println("The area of the circle = " + area);
+}
 }
 ```
 ----------------------------------------
@@ -53,15 +51,14 @@ return 0;
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String [] args) {
 int a, b, sum;
 a=1;
 b=2;
 sum = a + b;
-printf("The sum of a and b = %d", sum);
-return 0;
+System.out.println("the sum of a and b = " + sum);
+}
 }
 ```
 ----------------------------------------
