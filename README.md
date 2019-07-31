@@ -723,14 +723,13 @@ Einstein [7] = N</br>***
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String[] args) throws Exception{
 int i;
-char name [8] = {' E' , ' I', ' N', ' S', ' T ', ' E', ' I', ' N'};
+char [] num = {'E' , 'I', 'N', 'S', 'T', 'E', 'I', 'N'};
 for(i=0; i<8; i++)
-printf("\n Element [%d] = %c", i, name[i]);
-return 0;
+System.out.println("Einstein [" + i + " ] = " + num[i]);
+}
 }
 ```
 ----------------------------------------
@@ -866,14 +865,13 @@ body [y] = y</br>***
 <strong>Solution: </strong>
 
 ```Java
-#include <stdio.h>
-int main()
-{
-char i;
-char body [4] = {'b', 'o', 'd', 'y'};
+public class MyClass {
+public static void main(String[] args) throws Exception{
+int i;
+char [] body = {'b', 'o', 'd', 'y'};
 for(i=0; i<4; i++)
-printf("\n body[%c] = %c", body[i] , body[i]);
-return 0;
+System.out.println("body [" + body [i] + " ] = " + body [i]);
+}
 }
 ```
 ----------------------------------------
@@ -1009,19 +1007,16 @@ return 0;
 ---------------------------------------
 
 ```Java
-#include <stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String []args) {
 int i;
-for (i=1; i<=5; i++)
-{
-if (i==3)
-{
+for (i=1; i<=5; i++) {
+if (i==3) {
 continue;
 }
-printf("%d\n ", i);
+System.out.println("" + i);
 }
-return 0;
+}
 }
 ```
 ----------------------------------------
@@ -1075,19 +1070,16 @@ int main()
 ----------------------------------------
 
 ```Java
-#include <stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String []args) {
 int i;
-for (i=1; i<=5; i++)
-{
-if (i==3)
-{
+for (i=1; i<=5; i++) {
+if (i==3) {
 break;
 }
-printf("%d\n", i);
+System.out.println("" + i);
 }
-return 0;
+}
 }
 ```
 ----------------------------------------
