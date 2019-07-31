@@ -219,30 +219,6 @@ System.out.println("The average of 10 numbers = " + X);
 
 ### **Question:**
 
-> ***Write a program to print the address of x and the value assigned to x.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```Java
-#include <stdio.h>
-int main()
-{
-int x, *p;
-x = 1;
-p = &x;
-printf("The address of the variable x =%d", p);
-printf("The value of the variable x =%d", *p);
-return 0;
-} 
-```
-----------------------------------------
-
-# Question 10
-
-### **Question:**
-
 > ***Write a program to print the first 10 numbers starting from one together with their squares and cubes.***
 
 ---------------------------------------
@@ -260,7 +236,7 @@ System.out.println(" \n number = " + i + " its square = " + i*i + " its cube = "
 ```
 ----------------------------------------
 
-# Question 11
+# Question 10
 
 ### **Question:**
 
@@ -284,7 +260,7 @@ System.out.println("ch= " + c);
 ```
 ----------------------------------------
 
-# Question 12
+# Question 11
 
 ### **Question:**
 
@@ -310,7 +286,7 @@ System.out.println (n + " * " + i + " = " + n * i);
 ----------------------------------------
 
 
-# Question 13
+# Question 12
 
 ### **Question:**
 
@@ -332,7 +308,7 @@ System.out.println("The product of the first 10 digits = " + product);
 ```
 ----------------------------------------
 
-# Question 14
+# Question 13
 
 ### **Question:**
 
@@ -360,7 +336,7 @@ System.out.println(" Number entered is negative");
 ```
 ----------------------------------------
 
-# Question 15
+# Question 14
 
 ### **Question:**
 
@@ -393,7 +369,7 @@ System.out.println("The two numbers are not equivalent");
 ```
 ----------------------------------------
 
-# Question 16
+# Question 15
 
 ### **Question:**
 
@@ -420,7 +396,7 @@ System.out.println("The remainder of a and b = " + c);
 ```
 ----------------------------------------
 
-# Question 17
+# Question 16
 
 ### **Question:**
 
@@ -451,7 +427,7 @@ System.out.println("The number is odd");
 ```
 ----------------------------------------
 
-# Question 18
+# Question 17
 
 ### **Question:**
 
@@ -472,7 +448,7 @@ System.out.println("\n " + a);
 ```
 ----------------------------------------
 
-# Question 19
+# Question 18
 
 ### **Question:**
 
@@ -501,7 +477,7 @@ System.out.print("The decremented value of b = "+ f);
 ```
 ----------------------------------------
 
-# Question 20
+# Question 19
 
 ### **Question:**
 
@@ -525,7 +501,7 @@ System.out.println("The simple interest = " + SI);
 ```
 ----------------------------------------
 
-# Question 21
+# Question 20
 
 ### **Question:**
 
@@ -564,7 +540,7 @@ System.out.println("c is greater than b and a");
 ```
 ----------------------------------------
 
-# Question 22
+# Question 21
 
 ### **Question:**
 
@@ -592,7 +568,7 @@ for(i = 1; i <= n; i++)
 ```
 ----------------------------------------
 
-# Question 23
+# Question 22
 
 ### **Question:**
 
@@ -616,100 +592,7 @@ System.out.println("The length of the String is: " + a.length());
 ```
 ----------------------------------------
 
-# Question 24
-
-### **Question:**
-
-> ***Write a program to print the ASCII value of the entered character.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```Java
-#include<stdio.h>
-int main()
-{
-char ch ='A';
-printf("The ASCII value of ch is: %d", ch);
-return 0;
-}
-```
-----------------------------------------
-
-
-# Question 25
-
-### **Question:**
-
-> ***Write a program to check whether the entered character is a lower case letter or not.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```Java
-#include<stdio.h>
-int main()
-{
-char ch = 'a';
-if(islower(ch))
-printf("you have entered the lower case letter");
-else
-printf("you have entered the upper case letter");
-return 0;
-}
-```
-----------------------------------------
-
-
-# Question 26
-
-### **Question:**
-
-> ***Write a program to check whether the entered character is a upper case letter or not.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```Java
-#include<stdio.h>
-int main()
-{
-char ch = 'a';
-if(isupper(ch))
-printf("you have entered the upper case letter");
-else
-printf("you have entered the lower case letter");
-return 0;
-}
-```
-----------------------------------------
-
-# Question 27
-
-### **Question:**
-
-> ***Write a program to convert the lower case letter to upper case letter.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```Java
-#include<stdio.h>
-int main()
-{
-char ch = 'a';
-char b = toupper(ch);
-printf("lower case letter %c is converted to upper case letter %c", ch, b);
-return 0;
-}
-```
-----------------------------------------
-
-# Question 28
+# Question 23
 
 ### **Question:**
 
@@ -739,46 +622,7 @@ System.out.println("Einstein [" + i + " ] = " + num[i]);
 ```
 ----------------------------------------
 
-# Question 29
-
-### **Question:**
-
-> ***Write a program to print the output:</br>
-Name of the book = B</br>
-Price of the book = 135.00</br>
-Number of pages = 300</br>
-Edition = 8</br>
-using structures.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```Java
-#include<stdio.h>
-int main()
-{
-struct book {
-char name;
-float price;
-int pages;
-int edition;
-};
-struct book b1;
-b1.name = 'B';
-b1.price = 135.00;
-b1.pages = 300;
-b1.edition = 8;
-printf("\n Name of the book = %c", b1.name);
-printf("\n Price of the book = %f", b1.price);
-printf("\n Number of pages = %d", b1.pages);
-printf("\n Edition of the book = %d", b1.edition);
-return 0;
-}
-```
-----------------------------------------
-
-# Question 30
+# Question 24
 
 ### **Question:**
 
@@ -805,7 +649,7 @@ return x*x;
 ```
 ----------------------------------------
 
-# Question 31
+# Question 25
 
 ### **Question:**
 
@@ -827,7 +671,7 @@ System.out.println("\n hello world");
 ----------------------------------------
 
 
-# Question 32
+# Question 26
 
 ### **Question:**
 
@@ -850,7 +694,7 @@ System.out.println(" \n " + i++);
 ```
 ----------------------------------------
 
-# Question 33
+# Question 27
 
 ### **Question:**
 
@@ -876,105 +720,7 @@ System.out.println("body [" + body [i] + " ] = " + body [i]);
 ```
 ----------------------------------------
 
-
-# Question 34
-
-### **Question:**
-
-> ***What will be the output of the below program:***
-
----------------------------------------
-
-```Java
-#include<stdio.h>
-#include<stdlib.h>
-int main () {
-printf("linux\n");
-exit (0);
-printf("php\n");
-return 0;
-}
-```
-----------------------------------------
-
-<strong>Solution: </strong>
-
-```Java
-linux
-```
-----------------------------------------
-
-# Question 35
-
-### **Question:**
-
-> ***Write a program to check whether a character is an alphabet or not.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```Java
-#include <stdio.h>
-#include <ctype.h>
-int main()
-{
-int a =2;
-if( isalpha(a) )
-{
-printf(" The character a is an alphabet");
-}
-else
-{
-printf("The character a is not an alphabet");
-}
-return 0;
-}
-```
-----------------------------------------
-
-# Question 36
-
-### **Question:**
-
-> ***Write a program to calculate the discounted price and the total price after discount</br>
-Given:</br>
-If purchase value is greater than 1000, 10% discount</br>
-If purchase value is greater than 5000, 20% discount</br>
-If purchase value is greater than 10000, 30% discount.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```Java
-#include<stdio.h>
-int main()
-{
-double PV;
-printf("Enter purchased value:");
-scanf("%lf", &PV);
-if(PV>1000)
-{
-printf("\n Discount=%lf", PV* 0.1);
-printf("\n Total=%lf", PV - PV* 0.1);
-}
-else if(PV>5000)
-{
-printf("\n Discount =%lf", PV* 0.2);
-printf("\n Total=%lf", PV - PV* 0.1);
-}
-else
-{
-printf("\n Discount=%lf", PV* 0.3);
-printf("\n Total=%lf", PV - PV* 0.1);
-}
-return 0;
-}
-```
-----------------------------------------
-
-# Question 37
+# Question 28
 
 ### **Question:**
 
@@ -998,7 +744,7 @@ System.out.println("\n " + i++);
 ```
 ----------------------------------------
 
-# Question 38
+# Question 29
 
 ### **Question:**
 
@@ -1031,7 +777,7 @@ System.out.println("" + i);
 ```
 ----------------------------------------
 
-# Question 39
+# Question 30
 
 ### **Question:**
 
@@ -1051,7 +797,7 @@ public static void main(String[] args) {
 ```
 ----------------------------------------
 
-# Question 40
+# Question 31
 
 ### **Question:**
 
@@ -1202,7 +948,7 @@ Hello,world!
 ```
 ----------------------------------------
 
-# Question 41
+# Question 32
 
 ### **Question:**
 
