@@ -571,17 +571,19 @@ return 0;
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+import java.util.Scanner;
+public class HelloWorld{
+public static void main(String []args){
 int i, n, fact=1 ;
-printf("Enter any number:");
-scanf("%d", &n);
-for(i=1; i<=n; i++)
-fact = fact *i;
-printf("\n Entered number is: %d", n);
-printf("\n The factorial of the entered number %d is: %d", n, fact);
-return 0;
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter any number:");
+n = scan.nextInt();      
+for(i = 1; i <= n; i++)
+        {
+            fact = fact * i;
+        }
+        System.out.println("Factorial of " + n + " is: " + fact);
+     }
 }
 ```
 ----------------------------------------
