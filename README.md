@@ -248,14 +248,13 @@ return 0;
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String[] args) throws Exception{
 int i;
 for( i=1; i<=10; i++)
-printf("Number=%d its square=%d its cube=%d\n", i , i*i, i*i*i);
-return 0;
-} 
+System.out.println(" \n number = " + i + " its square = " + i*i + " its cube = " + i*i*i);
+}
+}
 ```
 ----------------------------------------
 
