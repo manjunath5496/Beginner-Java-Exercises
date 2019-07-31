@@ -1104,13 +1104,12 @@ Linux
 ----------------------------------------
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String [] args) {
 int i = 54;
 int y = i<<1;
-printf("The value of y = %d", y);
-return 0;
+System.out.println("The value of y = " + y);
+}
 }
 ```
 ----------------------------------------
@@ -1123,14 +1122,14 @@ The value of y = 108
 ----------------------------------------
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String [] args) {
 int i = 54;
 int y = i>>1;
-printf("The value of y = %d", y);
-return 0;
+System.out.println("The value of y = " + y);
 }
+}
+
 ```
 ----------------------------------------
 
