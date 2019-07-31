@@ -533,30 +533,31 @@ System.out.println("The simple interest = " + SI);
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+import java.util.Scanner;
+public class MyClass {
+public static void main(String [] args) {
 int a, b, c;
-printf("Enter any number:");
-scanf("%d", &a);
-printf("Enter any number:");
-scanf("%d", &b);
-printf("Enter any number:");
-scanf("%d", &c);
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter any number:");
+a = scan.nextInt();
+System.out.println("Enter any number:");
+b = scan.nextInt();
+System.out.println("Enter any number:");
+c = scan.nextInt();
 if(a>b&&a>c)
 {
-printf("%d is greater than %d and %d", a, b, c);
+System.out.println("a is greater than b and c");
 }
-else if (b>a&&b>c)
+else if(b>a&&b>c)
 {
-printf("%d is greater than %d and %d", b, a, c);
+System.out.println("b is greater than a and c");
 }
 else
 {
-printf("%d is greater than %d and %d", c, b, a);
+System.out.println("c is greater than b and a");
 }
-return 0;
 }
+}    
 ```
 ----------------------------------------
 
