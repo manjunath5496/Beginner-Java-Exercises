@@ -57,7 +57,7 @@ int a, b, sum;
 a=1;
 b=2;
 sum = a + b;
-System.out.println("the sum of a and b = " + sum);
+System.out.println("The sum of a and b = " + sum);
 }
 }
 ```
@@ -79,7 +79,7 @@ public static void main(String [] args){
 int a, b;
 a=2;
 b = a * a;
-System.out.println("the square of a = " + b);
+System.out.println("The square of a = " + b);
 }
 }
 ```
@@ -125,17 +125,16 @@ System.out.println("b is greater than a");
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String[] args){
 int i, avg, sum = 0;
-int num [5] = {16, 18, 20, 25, 36};
+int [] num = {16, 18, 20, 25, 36};
 for(i=0; i<5; i++)
-sum = sum + num [i];
+sum = sum + num[i];
 avg = sum/5;
-printf("Sum of the Elements in the array = %d", sum);
-printf("Average of the elements in the array= %d", avg);
-return 0;
+System.out.println("Sum of the Elements in the array = " + sum);
+System.out.println("Average of the Elements in the array = " + avg);
+}
 }
 ```
 ----------------------------------------
