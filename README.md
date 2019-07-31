@@ -777,28 +777,25 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to find square of a number using functions.***
+> ***Write a program to find square of a number using methods.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int square();
-int main()
-{
-int answer;
-answer = square();
-printf("Square of the given number=%d", answer);
-return(0);
-}
-int square()
-{
+import java.util.Scanner;
+public class MyClass {
+public static void main(String[] args) {
 int x;
-printf("Enter any integer:");
-scanf("%d", &x);
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter any number: ");
+x = scan.nextInt();
+System.out.println("Square of the number = " + square (x));
+}
+public static int square (int x){
 return x*x;
+}
 }
 ```
 ----------------------------------------
@@ -814,13 +811,12 @@ return x*x;
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String [] args) {
 int i;
 for (i =1; i<=10; i ++)
-printf("hello world \n");
-return 0;
+System.out.println("\n hello world");
+}
 }
 ```
 ----------------------------------------
@@ -837,15 +833,14 @@ return 0;
 <strong>Solution: </strong>
 
 ```Java
-#include<stdio.h>
-int main()
-{
+public class MyClass {
+public static void main(String [] args) {
 int i =1;
 do
 {
-printf("%d\n", i++);
+System.out.println(" \n " + i++);
 } while (i<=5);
-return 0;
+}
 }
 ```
 ----------------------------------------
