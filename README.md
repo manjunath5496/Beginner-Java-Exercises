@@ -329,7 +329,7 @@ System.out.println("Number is positive");
 }
 else
 {
-System.out.println(" Number entered is negative");
+System.out.println("Number entered is negative");
 }
 }
 }
