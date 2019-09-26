@@ -995,6 +995,41 @@ System.out.println("not a senior citizen");
                                 
 <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/pb(20).pdf" style="text-decoration:none;">The Well-Grounded Java Developer</a></b></li>
 <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/pb(21).pdf" style="text-decoration:none;">Think Java: How to Think Like a Computer Scientist</a></b></li>
+
+
+   <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(1).pdf" style="text-decoration:none;">Learn Java for Web Development: Modern Java Web Development</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(2).pdf" style="text-decoration:none;">Data Structures and Problem Solving Using Java</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(3).pdf" style="text-decoration:none;">Data Structures and Algorithms in Java</a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(4).pdf" style="text-decoration:none;">Java for Absolute Beginners </a></b></li>                              
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(6).pdf" style="text-decoration:none;">Java Interview Notes </a></b></li>
+                                
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(7).pdf" style="text-decoration:none;">Java Coding Interview</a></b></li>
+                          
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(8).pdf" style="text-decoration:none;">Java: The Complete Reference</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(9).pdf" style="text-decoration:none;">Java: Easy Java Programming for Beginners, Your Step-
+By-Step Guide to Learning Java Programming</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(10).pdf" style="text-decoration:none;">Java All-in-One For Dummies</a></b></li>
+                                
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(11).pdf" style="text-decoration:none;"> Sams Teach Yourself Java in 24 Hours</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(13).pdf" style="text-decoration:none;">Java Design Patterns</a></b></li>
+
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(14).pdf" style="text-decoration:none;">Java Programming Interviews Exposed</a></b></li>
+                          
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(15).pdf" style="text-decoration:none;">Java For Testers: Learn Java fundamentals fast</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(16).pdf" style="text-decoration:none;">Microservices Patterns: With Examples in Java</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(17).pdf" style="text-decoration:none;">Modern Compiler Implementation in Java</a></b></li>
+                                
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(18).pdf" style="text-decoration:none;"> Object-Oriented Programming (OOP) with Java</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(19).pdf" style="text-decoration:none;">Objects First with Java: A Practical Introduction Using BlueJ</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(20).pdf" style="text-decoration:none;">OCA Java SE 8 Programmer I Certification Guide</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(21).pdf" style="text-decoration:none;">Software Architecture Design Patterns in Java</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(22).pdf" style="text-decoration:none;">Fundamentals of Computer Science Using Java</a></b></li>
+
+
+
  </ul>
 	
 
