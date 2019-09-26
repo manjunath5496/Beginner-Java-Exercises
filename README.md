@@ -1028,7 +1028,9 @@ By-Step Guide to Learning Java Programming</a></b></li>
 
 <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(22).pdf" style="text-decoration:none;">Fundamentals of Computer Science Using Java</a></b></li>
 
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(5).pdf" style="text-decoration:none;">Java Puzzlers: Traps, Pitfalls, and Corner Cases</a></b></li>
 
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(12).pdf" style="text-decoration:none;">Java in a Nutshell</a></b></li>
 
  </ul>
 	
