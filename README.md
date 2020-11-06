@@ -1760,6 +1760,221 @@ class MyClass {
 ----------------------------------------
 
 
+
+# Question 57
+
+### **Question:**
+
+> ***Write a program to Copy File.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+class MyClass {
+  public static void main(String[] args) {
+
+    byte[] array = new byte[50];
+    try {
+      FileInputStream sourceFile = new FileInputStream("input.txt");
+      FileOutputStream destFile = new FileOutputStream("newFile");
+
+      // reads all data from input.txt
+      sourceFile.read(array);
+
+      // writes all data to newFile
+      destFile.write(array);
+      System.out.println("The input.txt file is copied to newFile.");
+
+      // closes the stream
+      sourceFile.close();
+      destFile.close();
+    }
+    catch (Exception e) {
+      e.getStackTrace();
+    }
+  }
+}
+```
+----------------------------------------
+
+
+# Question 58
+
+### **Question:**
+
+> ***Write a program to Implement Bubble Sort algorithm.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+// import the Class
+import java.util.Arrays;
+import java.util.Scanner;
+
+class MyClass {
+
+  // create an object of scanner
+  // to take input from the user
+  Scanner input = new Scanner(System.in);
+
+  // method to perform bubble sort
+  void bubbleSort(int array[]) {
+    int size = array.length;
+
+    // for ascending or descending sort
+    System.out.println("Choose Sorting Order:");
+    System.out.println("1 for Ascending \n2 for Descending");
+    int sortOrder = input.nextInt();
+
+    // run loops two times
+    // first loop access each element of the array
+    for (int i = 0; i < size - 1; i++)
+
+      // second loop performs the comparison in each iteration
+      for (int j = 0; j < size - i - 1; j++)
+
+        // sort the array in ascending order
+        if (sortOrder == 1) {
+          // compares the adjacent element
+          if (array[j] > array[j + 1]) {
+
+            // swap if left element is greater than right
+            int temp = array[j];
+            array[j] = array[j + 1];
+            array[j + 1] = temp;
+          }
+        }
+
+        // sort the array in descending order
+        else {
+          // compares the adjacent element
+          if (array[j] < array[j + 1]) {
+
+            // swap if left element is smaller than right
+            int temp = array[j];
+            array[j] = array[j + 1];
+            array[j + 1] = temp;
+          }
+        }
+
+  }
+
+  // driver code
+  public static void main(String args[]) {
+
+    // create an array
+    int[] data = { -2, 45, 0, 11, -9 };
+
+    // create an object of Main class
+    Main bs = new Main();
+
+    // call the method bubbleSort using object bs
+    // pass the array as the method argument
+    bs.bubbleSort(data);
+    System.out.println("Sorted Array in Ascending Order:");
+
+    // call toString() of Arrays class
+    // to convert data into the string
+    System.out.println(Arrays.toString(data));
+  }
+}
+```
+----------------------------------------
+
+# Question 59
+
+### **Question:**
+
+> ***Write a program to Implement Quick Sort Algorithm.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+
+import java.util.Arrays;
+
+class MyClass {
+
+  // divide the array on the basis of pivot
+  int partition(int array[], int low, int high) {
+
+    // select last element as pivot
+    int pivot = array[high];
+
+    // initialize the second pointer
+    int i = (low - 1);
+
+    // Put the elements smaller than pivot on the left and
+    // greater than pivot on the right of pivot
+    for (int j = low; j < high; j++) {
+
+      // compare all elements with pivot
+      // swap the element greater than pivot
+      // with element smaller than pivot
+      // to sort in descending order
+      // if (array[j] >= pivot)
+      if (array[j] <= pivot) {
+
+        // increase the second pointer if
+        // smaller element is swapped with greater
+        i++;
+        int temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+      }
+    }
+
+    // put pivot in position
+    // so that element on left are smaller
+    // element on right are greater than pivot
+    int temp = array[i + 1];
+    array[i + 1] = array[high];
+    array[high] = temp;
+    return (i + 1);
+  }
+
+  void quickSort(int array[], int low, int high) {
+    if (low < high) {
+
+      // Select pivot position and put all the elements smaller
+      // than pivot on the left and greater than pivot on right
+      int pi = partition(array, low, high);
+
+      // sort the elements on the left of the pivot
+      quickSort(array, low, pi - 1);
+
+      // sort the elements on the right of pivot
+      quickSort(array, pi + 1, high);
+    }
+  }
+
+  // Driver code
+  public static void main(String args[]) {
+
+    // create an unsorted array
+    int[] data = { 8, 7, 2, 1, 0, 9, 6 };
+    int size = data.length;
+
+    // create an object of the Main class
+    Main qs = new Main();
+
+    // pass the array with the first and last index
+    qs.quickSort(data, 0, size - 1);
+    System.out.println("Sorted Array: ");
+    System.out.println(Arrays.toString(data));
+  }
+}
+```
+----------------------------------------
  </br>
 <h3>Books:</h3>
 <hr>
