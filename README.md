@@ -1975,7 +1975,540 @@ class MyClass {
 }
 ```
 ----------------------------------------
- </br>
+
+# Question 60
+
+### **Question:**
+
+> ***Write a program to Implement Merge Sort Algorithm.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Arrays;
+
+
+class MyClass {
+
+  // Merge two sub arrays L and M into array
+  void merge(int array[], int p, int q, int r) {
+
+    int n1 = q - p + 1;
+    int n2 = r - q;
+
+    int L[] = new int[n1];
+    int M[] = new int[n2];
+
+    // fill the left and right array
+    for (int i = 0; i < n1; i++)
+      L[i] = array[p + i];
+    for (int j = 0; j < n2; j++)
+      M[j] = array[q + 1 + j];
+
+    // Maintain current index of sub-arrays and main array
+    int i, j, k;
+    i = 0;
+    j = 0;
+    k = p;
+
+    // Until we reach either end of either L or M, pick larger among
+    // elements L and M and place them in the correct position at A[p..r]
+    // for sorting in descending
+    // use if(L[i] >= <[j])
+    while (i < n1 && j < n2) {
+      if (L[i] <= M[j]) {
+        array[k] = L[i];
+        i++;
+      } else {
+        array[k] = M[j];
+        j++;
+      }
+      k++;
+    }
+
+    // When we run out of elements in either L or M,
+    // pick up the remaining elements and put in A[p..r]
+    while (i < n1) {
+      array[k] = L[i];
+      i++;
+      k++;
+    }
+
+    while (j < n2) {
+      array[k] = M[j];
+      j++;
+      k++;
+    }
+  }
+
+  // Divide the array into two sub arrays, sort them and merge them
+  void mergeSort(int array[], int left, int right) {
+    if (left < right) {
+
+      // m is the point where the array is divided into two sub arrays
+      int mid = (left + right) / 2;
+
+      // recursive call to each sub arrays
+      mergeSort(array, left, mid);
+      mergeSort(array, mid + 1, right);
+
+      // Merge the sorted sub arrays
+      merge(array, left, mid, right);
+    }
+  }
+
+  public static void main(String args[]) {
+
+    // created an unsorted array
+    int[] array = { 6, 5, 12, 10, 9, 1 };
+
+    Main ob = new Main();
+
+    // call the method mergeSort()
+    // pass argument: array, first index and last index
+    ob.mergeSort(array, 0, array.length - 1);
+
+    System.out.println("Sorted Array:");
+    System.out.println(Arrays.toString(array));
+  }
+}
+
+```
+----------------------------------------
+
+
+# Question 61
+
+### **Question:**
+
+> ***Write a program to Implement Binary Search Algorithm.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.Scanner;
+
+class MyClass {
+  int binarySearch(int array[], int element, int low, int high) {
+
+    // Repeat until the pointers low and high meet each other
+    while (low <= high) {
+
+      // get index of mid element
+      int mid = low + (high - low) / 2;
+
+      // if element to be searched is the mid element
+      if (array[mid] == element)
+        return mid;
+
+      // if element is less than mid element
+      // search only the left side of mid
+      if (array[mid] < element)
+        low = mid + 1;
+
+      // if element is greater than mid element
+      // search only the right side of mid
+      else
+        high = mid - 1;
+    }
+
+    return -1;
+  }
+
+  public static void main(String args[]) {
+
+    // create an object of Main class
+    Main obj = new Main();
+
+    // create a sorted array
+    int[] array = { 3, 4, 5, 6, 7, 8, 9 };
+    int n = array.length;
+
+    // get input from user for element to be searched
+    Scanner input = new Scanner(System.in);
+
+    System.out.println("Enter element to be searched:");
+
+    // element to be searched
+    int element = input.nextInt();
+    input.close();
+
+    // call the binary search method
+    // pass arguments: array, element, index of first and last element
+    int result = obj.binarySearch(array, element, 0, n - 1);
+    if (result == -1)
+      System.out.println("Not found");
+    else
+      System.out.println("Element found at index " + result);
+  }
+}
+```
+----------------------------------------
+
+# Question 62
+
+### **Question:**
+
+> ***Write a program to Load File as Input Stream.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.io.InputStream;
+import java.io.FileInputStream;
+
+public class MyClass {
+
+  public static void main(String args[]) {
+
+    try {
+
+      // file input.txt is loaded as input stream
+      // input.txt file contains:
+      // This is a content of the file input.txt
+      InputStream input = new FileInputStream("input.txt");
+
+      System.out.println("Data in the file: ");
+
+      // Reads the first byte
+      int i = input.read();
+
+      while(i != -1) {
+        System.out.print((char)i);
+
+        // Reads next byte from the file
+        i = input.read();
+      }
+      input.close();
+    }
+
+    catch(Exception e) {
+      e.getStackTrace();
+    }
+  }
+}
+```
+----------------------------------------
+
+# Question 63
+
+### **Question:**
+
+> ***Write a program to Create File and Write to the File.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.io.File;
+
+class MyClass {
+  public static void main(String[] args) {
+
+    // create a file object for the current location
+    File file = new File("JavaFile.java");
+
+    try {
+
+      // create a new file with name specified
+      // by the file object
+      boolean value = file.createNewFile();
+      if (value) {
+        System.out.println("New Java File is created.");
+      }
+      else {
+        System.out.println("The file already exists.");
+      }
+    }
+    catch(Exception e) {
+      e.getStackTrace();
+    }
+  }
+}
+```
+----------------------------------------
+
+ 
+# Question 64
+
+### **Question:**
+
+> ***Write a program to Read the Content of a File Line by Line.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+
+class MyClass {
+  public static void main(String[] args) {
+    try {
+
+      // Creates a FileInputStream
+      FileInputStream file = new FileInputStream("input.txt");
+
+      // Creates a BufferedInputStream
+      BufferedInputStream input = new BufferedInputStream(file);
+
+      // Reads first byte from file
+      int i = input .read();
+
+      while (i != -1) {
+        System.out.print((char) i);
+
+        // Reads next byte from the file
+        i = input.read();
+      }
+      input.close();
+    }
+
+    catch (Exception e) {
+      e.getStackTrace();
+    }
+  }
+}
+```
+----------------------------------------
+
+ 
+# Question 65
+
+### **Question:**
+
+> ***Write a program to Delete File.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.io.File;
+
+class MyClass {
+  public static void main(String[] args) {
+
+    // creates a file object
+    File file = new File("JavaFile.java");
+
+    // deletes the file
+    boolean value = file.delete();
+    if(value) {
+      System.out.println("JavaFile.java is successfully deleted.");
+    }
+    else {
+      System.out.println("File doesn't exit");
+    }
+  }
+}
+```
+----------------------------------------
+# Question 66
+
+### **Question:**
+
+> ***Write a program to Get the File Extension.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.io.File;
+
+class MyClass {
+
+  public static void main(String[] args) {
+    File file = new File("Test.java");
+
+    // convert the file name into string
+    String fileName = file.toString();
+
+    int index = fileName.lastIndexOf('.');
+    if(index > 0) {
+      String extension = fileName.substring(index + 1);
+      System.out.println("File extension is " + extension);
+    }
+  }
+}
+```
+----------------------------------------
+
+# Question 67
+
+### **Question:**
+
+> ***Write a program to Count number of lines present in the file.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.io.File;
+import java.util.Scanner;
+
+class MyClass {
+  public static void main(String[] args) {
+
+    int count = 0;
+
+    try {
+      // create a new file object
+      File file = new File("input.txt");
+
+      // create an object of Scanner
+      // associated with the file
+      Scanner sc = new Scanner(file);
+
+      // read each line and
+      // count number of lines
+      while(sc.hasNextLine()) {
+        sc.nextLine();
+        count++;
+      }
+      System.out.println("Total Number of Lines: " + count);
+
+      // close scanner
+      sc.close();
+    } catch (Exception e) {
+      e.getStackTrace();
+    }
+  }
+}
+```
+----------------------------------------
+# Question 68
+
+### **Question:**
+
+> ***Write a program to Merge two lists.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.ArrayList;
+import java.util.List;
+
+class MyClass {
+  public static void main(String[] args) {
+
+    // create first list
+    List<Integer> prime = new ArrayList<>();
+    prime.add(2);
+    prime.add(3);
+    prime.add(5);
+    System.out.println("First List: " + prime);
+
+    // create second list
+    List<Integer> even = new ArrayList<>();
+    even.add(4);
+    even.add(6);
+    System.out.println("Second List: " + even);
+
+    // create merged list
+    List<Integer> numbers = new ArrayList<>();
+    numbers.addAll(prime);
+    numbers.addAll(even);
+
+    System.out.println("Merged List: " + numbers);
+
+  }
+}
+```
+----------------------------------------
+
+# Question 69
+
+### **Question:**
+
+> ***Write a program to Remove duplicate elements from Array List.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+class MyClass {
+  public static void main(String[] args) {
+
+    // create an arraylist from the array
+    // using asList() method of the Arrays class
+    ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 1, 3));
+    System.out.println("ArrayList with duplicate elements: " + numbers);
+
+    // convert the arraylist into a set
+    Set<Integer> set = new LinkedHashSet<>();
+    set.addAll(numbers);
+
+    // delete al elements of arraylist
+    numbers.clear();
+
+    // add element from set to arraylist
+    numbers.addAll(set);
+    System.out.println("ArrayList without duplicate elements: " + numbers);
+  }
+}
+```
+----------------------------------------
+
+# Question 70
+
+### **Question:**
+
+> ***Write a program to Calculate union of two sets.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.util.HashSet;
+import java.util.Set;
+
+class MyClass {
+  public static void main(String[] args) {
+
+    // create the first set
+    Set<Integer> evenNumbers = new HashSet<>();
+    evenNumbers.add(2);
+    evenNumbers.add(4);
+    System.out.println("Set1: " + evenNumbers);
+
+    // create second set
+    Set<Integer> numbers = new HashSet<>();
+    numbers.add(1);
+    numbers.add(3);
+    System.out.println("Set2: " + numbers);
+
+    // Union of two sets
+    numbers.addAll(evenNumbers);
+    System.out.println("Union is: " + numbers);
+  }
+}
+```
+----------------------------------------
+
+
+
+
+</br>
 <h3>Books:</h3>
 <hr>
 
