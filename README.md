@@ -976,6 +976,356 @@ System.out.println("not a senior citizen");
 ```
 ----------------------------------------
 
+# Question 33
+
+### **Question:**
+
+> ***Write a program to Find ASCII Value of a character.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        char ch = 'a';
+        int ascii = ch;
+        // You can also cast char to int
+        int castAscii = (int) ch;
+
+        System.out.println("The ASCII value of " + ch + " is: " + ascii);
+        System.out.println("The ASCII value of " + ch + " is: " + castAscii);
+    }
+
+```
+----------------------------------------
+
+
+# Question 34
+
+### **Question:**
+
+> ***Write a program to Swap Two Numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        float first = 12.0f, second = 24.5f;
+
+        System.out.println("--Before swap--");
+        System.out.println("First number = " + first);
+        System.out.println("Second number = " + second);
+
+        first = first - second;
+        second = first + second;
+        first = second - first;
+
+        System.out.println("--After swap--");
+        System.out.println("First number = " + first);
+        System.out.println("Second number = " + second);
+    }
+}
+```
+----------------------------------------
+
+# Question 35
+
+### **Question:**
+
+> ***Write a program to Display Fibonacci Series.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        int n = 10, t1 = 0, t2 = 1;
+        System.out.print("First " + n + " terms: ");
+
+        for (int i = 1; i <= n; ++i)
+        {
+            System.out.print(t1 + " + ");
+
+            int sum = t1 + t2;
+            t1 = t2;
+            t2 = sum;
+        }
+    }
+}
+```
+----------------------------------------
+
+# Question 36
+
+### **Question:**
+
+> ***Write a program to Find GCD of two Numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        int n1 = 81, n2 = 153, gcd = 1;
+
+        for(int i = 1; i <= n1 && i <= n2; ++i)
+        {
+            // Checks if i is factor of both integers
+            if(n1 % i==0 && n2 % i==0)
+                gcd = i;
+        }
+
+        System.out.printf("G.C.D of %d and %d is %d", n1, n2, gcd);
+    }
+}
+```
+----------------------------------------
+
+# Question 37
+
+### **Question:**
+
+> ***Write a program to Find LCM of two Numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+  public static void main(String[] args) {
+
+    int n1 = 72, n2 = 120, lcm;
+
+    // maximum number between n1 and n2 is stored in lcm
+    lcm = (n1 > n2) ? n1 : n2;
+
+    // Always true
+    while(true) {
+      if( lcm % n1 == 0 && lcm % n2 == 0 ) {
+        System.out.printf("The LCM of %d and %d is %d.", n1, n2, lcm);
+        break;
+      }
+      ++lcm;
+    }
+  }
+}
+```
+----------------------------------------
+
+# Question 38
+
+### **Question:**
+
+> ***Write a program to Count Number of Digits in an Integer.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        int count = 0, num = 3452;
+
+        while(num != 0)
+        {
+            // num = num/10
+            num /= 10;
+            ++count;
+        }
+
+        System.out.println("Number of digits: " + count);
+    }
+}
+```
+----------------------------------------
+
+# Question 39
+
+### **Question:**
+
+> ***Write a program to Reverse a Number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        int num = 1234, reversed = 0;
+
+        while(num != 0) {
+            int digit = num % 10;
+            reversed = reversed * 10 + digit;
+            num /= 10;
+        }
+
+        System.out.println("Reversed Number: " + reversed);
+    }
+}
+```
+----------------------------------------
+
+# Question 40
+
+### **Question:**
+
+> ***Write a program to Display Prime Numbers Between Two Intervals.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        int low = 20, high = 50;
+
+        while (low < high) {
+            boolean flag = false;
+
+            for(int i = 2; i <= low/2; ++i) {
+                // condition for nonprime number
+                if(low % i == 0) {
+                    flag = true;
+                    break;
+                }
+            }
+
+            if (!flag && low != 0 && low != 1)
+                System.out.print(low + " ");
+
+            ++low;
+        }
+    }
+}
+```
+----------------------------------------
+
+# Question 41
+
+### **Question:**
+
+> ***Write a program to Check Armstrong Number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        int number = 371, originalNumber, remainder, result = 0;
+
+        originalNumber = number;
+
+        while (originalNumber != 0)
+        {
+            remainder = originalNumber % 10;
+            result += Math.pow(remainder, 3);
+            originalNumber /= 10;
+        }
+
+        if(result == number)
+            System.out.println(number + " is an Armstrong number.");
+        else
+            System.out.println(number + " is not an Armstrong number.");
+    }
+}
+```
+----------------------------------------
+
+# Question 42
+
+### **Question:**
+
+> ***Write a program to Find G.C.D Using Recursion.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+        int n1 = 366, n2 = 60;
+        int hcf = hcf(n1, n2);
+
+        System.out.printf("G.C.D of %d and %d is %d.", n1, n2, hcf);
+    }
+
+    public static int hcf(int n1, int n2)
+    {
+        if (n2 != 0)
+            return hcf(n2, n1 % n2);
+        else
+            return n1;
+    }
+}
+```
+----------------------------------------
+
+# Question 43
+
+### **Question:**
+
+> ***Write a program to Reverse a Sentence Using Recursion.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+  public static void main(String[] args) {
+    String sentence = "Go work";
+    String reversed = reverse(sentence);
+    System.out.println("The reversed sentence is: " + reversed);
+  }
+
+  public static String reverse(String sentence) {
+    if (sentence.isEmpty())
+      return sentence;
+
+    return reverse(sentence.substring(1)) + sentence.charAt(0);
+  }
+}
+```
+----------------------------------------
+
+
+
+
+
  </br>
 <h3>Books:</h3>
 <hr>
