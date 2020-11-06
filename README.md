@@ -1625,6 +1625,139 @@ public class MyClass {
 ----------------------------------------
 
 
+# Question 53
+
+### **Question:**
+
+> ***Write a program to compare two strings.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        String style = "Bold";
+        String style2 = "Bold";
+
+        if(style == style2)
+            System.out.println("Equal");
+        else
+            System.out.println("Not Equal");
+    }
+}
+```
+----------------------------------------
+
+# Question 54
+
+### **Question:**
+
+> ***Write a program to Create Directories.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.io.File;
+
+class MyClass {
+  public static void main(String[] args) {
+
+    // creates a file object with specified path
+    File file = new File("Java Example\\directory");
+
+    // tries to create a new directory
+    boolean value = file.mkdir();
+    if(value) {
+      System.out.println("The new directory is created.");
+    }
+    else {
+      System.out.println("The directory already exists.");
+    }
+  }
+}
+```
+----------------------------------------
+
+# Question 55
+
+### **Question:**
+
+> ***Write a program to Rename File.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+
+import java.io.File;
+
+class MyClass {
+  public static void main(String[] args) {
+
+    // create a file object
+    File file = new File("oldName");
+      
+    // create a file
+    try {
+      file.createNewFile();
+    }
+    catch(Exception e) {
+      e.getStackTrace();
+    }
+
+    // create an object that contains the new name of file
+    File newFile = new File("newName");
+
+    // change the name of file
+    boolean value = file.renameTo(newFile);
+
+    if(value) {
+      System.out.println("The name of the file is changed.");
+    }
+    else {
+      System.out.println("The name cannot be changed.");
+    }
+  }
+}
+```
+----------------------------------------
+
+# Question 56
+
+### **Question:**
+
+> ***Write a program to Get all Files Present in a Directory.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.io.File;
+
+class MyClass {
+  public static void main(String[] args) {
+
+    // creates a file object
+    File file = new File("C:\\Users\\Guest User\\Desktop\\Java File\\List Method");
+
+    // returns an array of all files
+    String[] fileList = file.list();
+
+    for(String str : fileList) {
+      System.out.println(str);
+    }
+  }
+}
+```
+----------------------------------------
 
 
  </br>
