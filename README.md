@@ -1324,6 +1324,307 @@ public class MyClass {
 
 
 
+# Question 44
+
+### **Question:**
+
+> ***Write a program to Calculate Standard Deviation.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+        double[] numArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        double SD = calculateSD(numArray);
+
+        System.out.format("Standard Deviation = %.6f", SD);
+    }
+
+    public static double calculateSD(double numArray[])
+    {
+        double sum = 0.0, standardDeviation = 0.0;
+        int length = numArray.length;
+
+        for(double num : numArray) {
+            sum += num;
+        }
+
+        double mean = sum/length;
+
+        for(double num: numArray) {
+            standardDeviation += Math.pow(num - mean, 2);
+        }
+
+        return Math.sqrt(standardDeviation/length);
+    }
+}
+```
+----------------------------------------
+
+# Question 45
+
+### **Question:**
+
+> ***Write a program to Add Two Matrix Using Multi-dimensional Arrays.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+        int rows = 2, columns = 3;
+        int[][] firstMatrix = { {2, 3, 4}, {5, 2, 3} };
+        int[][] secondMatrix = { {-4, 5, 3}, {5, 6, 3} };
+
+        // Adding Two matrices
+        int[][] sum = new int[rows][columns];
+        for(int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                sum[i][j] = firstMatrix[i][j] + secondMatrix[i][j];
+            }
+        }
+
+        // Displaying the result
+        System.out.println("Sum of two matrices is: ");
+        for(int[] row : sum) {
+            for (int column : row) {
+                System.out.print(column + "    ");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+----------------------------------------
+
+# Question 46
+
+### **Question:**
+
+> ***Write a program to Multiply to Matrix Using Multi-dimensional Arrays.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+        int r1 = 2, c1 = 3;
+        int r2 = 3, c2 = 2;
+        int[][] firstMatrix = { {3, -2, 5}, {3, 0, 4} };
+        int[][] secondMatrix = { {2, 3}, {-9, 0}, {0, 4} };
+
+        // Mutliplying Two matrices
+        int[][] product = new int[r1][c2];
+        for(int i = 0; i < r1; i++) {
+            for (int j = 0; j < c2; j++) {
+                for (int k = 0; k < c1; k++) {
+                    product[i][j] += firstMatrix[i][k] * secondMatrix[k][j];
+                }
+            }
+        }
+
+        // Displaying the result
+        System.out.println("Sum of two matrices is: ");
+        for(int[] row : product) {
+            for (int column : row) {
+                System.out.print(column + "    ");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+----------------------------------------
+
+# Question 47
+
+### **Question:**
+
+> ***Write a program to Find Transpose of a Matrix.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+        int row = 2, column = 3;
+        int[][] matrix = { {2, 3, 4}, {5, 6, 4} };
+
+        // Display current matrix
+        display(matrix);
+
+        // Transpose the matrix
+        int[][] transpose = new int[column][row];
+        for(int i = 0; i < row; i++) {
+            for (int j = 0; j < column; j++) {
+                transpose[j][i] = matrix[i][j];
+            }
+        }
+
+        // Display transposed matrix
+        display(transpose);
+    }
+
+    public static void display(int[][] matrix) {
+        System.out.println("The matrix is: ");
+        for(int[] row : matrix) {
+            for (int column : row) {
+                System.out.print(column + "    ");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+----------------------------------------
+
+# Question 48
+
+### **Question:**
+
+> ***Write a program find the occurrence (Frequency) of a character in a given string.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+        String str = "This website is awesome.";
+        char ch = 'e';
+        int frequency = 0;
+
+        for(int i = 0; i < str.length(); i++) {
+            if(ch == str.charAt(i)) {
+                ++frequency;
+            }
+        }
+
+        System.out.println("Frequency of " + ch + " = " + frequency);
+    }
+}
+```
+----------------------------------------
+
+# Question 49
+
+### **Question:**
+
+> ***Write a program to Remove All Whitespaces from a String.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+        String sentence = "T    his is b  ett     er.";
+        System.out.println("Original sentence: " + sentence);
+
+        sentence = sentence.replaceAll("\\s", "");
+        System.out.println("After replacement: " + sentence);
+    }
+}
+```
+----------------------------------------
+
+# Question 50
+
+### **Question:**
+
+> ***Write a program to Get Current Date/Time.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+
+public class MyClass {
+
+    public static void main(String[] args) {
+        LocalDateTime current = LocalDateTime.now();
+
+        System.out.println("Current Date and Time is: " + current);
+    }
+}
+```
+----------------------------------------
+
+# Question 51
+
+### **Question:**
+
+> ***Write a program to Get Current Working Directory.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        String path = System.getProperty("user.dir");
+        
+        System.out.println("Working Directory = " + path);
+
+    }
+}
+```
+----------------------------------------
+
+# Question 52
+
+### **Question:**
+
+> ***Write a program to Append Text to an Existing File.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
+
+public class MyClass {
+
+    public static void main(String[] args) {
+
+        String path = System.getProperty("user.dir") + "\\src\\test.txt";
+        String text = "Added text";
+
+        try {
+            Files.write(Paths.get(path), text.getBytes(), StandardOpenOption.APPEND);
+        } catch (IOException e) {
+        }
+    }
+}   
+```
+----------------------------------------
+
+
 
 
  </br>
