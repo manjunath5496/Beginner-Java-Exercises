@@ -2527,7 +2527,7 @@ class MyClass {
 
  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(8).pdf" style="text-decoration:none;"> Reflection Analysis for Java</a></li>
    <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(9).pdf" style="text-decoration:none;">
-A Variational Approach To Edge Detection </a></li>
+New Software Development Methodology for Student of Java Programming Language </a></li>
   
    
  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(10).pdf" style="text-decoration:none;">e JAVA Chatbot for Learning Programming</a></li>                              
@@ -2570,6 +2570,52 @@ and Environment</a></li>
  
    <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(29).pdf" style="text-decoration:none;">The benefits of using Java as a
 high-performance language for mission critical financial applications</a></li>                              
+
+  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(30).pdf" style="text-decoration:none;">Challenges for Static Analysis of Java Reflection – Literature Review and Empirical Study</a></li>
+ 
+   <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(31).pdf" style="text-decoration:none;">A Simple Application ProgramInterface for Saving Java Program Data on a Wiki</a></li> 
+    <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(32).pdf" style="text-decoration:none;">The Java Memory Model is Fatally Flawed</a></li> 
+
+   <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(33).pdf" style="text-decoration:none;">Comparative Study of C, C++, C# and Java Programming Languages</a></li>                              
+
+  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(34).pdf" style="text-decoration:none;">C# Versus Java</a></li> 
+ 
+  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(35).pdf" style="text-decoration:none;">Learning to Coordinate Behaviors</a></li> 
+
+  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(36).pdf" style="text-decoration:none;">New Learning Methodology for Student of Java Programming Language</a></li> 
+ 
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(37).pdf" style="text-decoration:none;">A Java Fork/Join Framework</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(38).pdf" style="text-decoration:none;">Study of Development of Java Applications in Eclipse Environment and Development of Java Based Calendar Application with Email Notifications</a></li>
+
+  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(39).pdf" style="text-decoration:none;">Introduction to Programming Using Java</a></li> 
+ 
+  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(40).pdf" style="text-decoration:none;">A Large Scale Study of Programming Languages and Code Quality in Github</a></li> 
+
+  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(41).pdf" style="text-decoration:none;">Automatic Source Code Summarization of Context for Java Methods</a></li> 
+ 
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(42).pdf" style="text-decoration:none;">Using Memory Errors to Attack a Virtual Machine</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(43).pdf" style="text-decoration:none;">Polymorphism in the Spotlight: Studying Its Prevalence in Java and Smalltalk</a></li>
+
+  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(44).pdf" style="text-decoration:none;">Object-Oriented Programming Basics With Java</a></li> 
+ 
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(45).pdf" style="text-decoration:none;">Performance analysis and optimization of the Java memory system</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(46).pdf" style="text-decoration:none;">Dynamic Metrics for Java</a></li>
+
+ 
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(47).pdf" style="text-decoration:none;">Java in the High Performance Computing Arena: Research, Practice and Experience</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(48).pdf" style="text-decoration:none;">Loop Recognition in C++/Java/Go/Scala</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
 
 </ul>
 
