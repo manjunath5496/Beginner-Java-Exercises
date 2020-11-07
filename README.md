@@ -2580,7 +2580,8 @@ high-performance language for mission critical financial applications</a></li>
 
   <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(34).pdf" style="text-decoration:none;">C# Versus Java</a></li> 
  
-  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(35).pdf" style="text-decoration:none;">Learning to Coordinate Behaviors</a></li> 
+  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(35).pdf" style="text-decoration:none;">JAVA for
+Beginners</a></li> 
 
   <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(36).pdf" style="text-decoration:none;">New Learning Methodology for Student of Java Programming Language</a></li> 
  
