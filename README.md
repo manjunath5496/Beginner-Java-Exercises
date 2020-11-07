@@ -2634,6 +2634,16 @@ Beginners</a></li>
  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Baby Care Project.rar" style="text-decoration:none;">Baby Care Project</a></li>
  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Broadcasting Chat Server Project.rar" style="text-decoration:none;">Broadcasting Chat Server Project</a></li>
   <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/City Classified and Search.rar" style="text-decoration:none;">City Classified and Search</a></li>
+  
+   <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Company Mailer Project.rar" style="text-decoration:none;">Company Mailer Project</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Connect Globe.rar" style="text-decoration:none;">Connect Globe</a></li>
+  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Fee Management.rar" style="text-decoration:none;">Fee Management</a></li>
+  
+  
+  
+  
+  
+  
 </ul>
 </br>
 
