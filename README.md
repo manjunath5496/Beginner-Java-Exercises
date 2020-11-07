@@ -1496,7 +1496,7 @@ public class MyClass {
 
 ### **Question:**
 
-> ***Write a program find the occurrence (Frequency) of a character in a given string.***
+> ***Write a program to find the occurrence (Frequency) of a character in a given string.***
 
 ---------------------------------------
 
