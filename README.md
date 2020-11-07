@@ -2509,6 +2509,76 @@ class MyClass {
 
 
 </br>
+
+<h2> Papers  </h2>
+
+<ul>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(1).pdf" style="text-decoration:none;">J-Orchestra: Enhancing Java Programs with Distribution Capabilities</a></li>
+
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(2).pdf" style="text-decoration:none;">A New Approach for Java Based Kernel</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(3).pdf" style="text-decoration:none;">Proactive Empirical Assessment of New Language Feature Adoption via Automated Refactoring: The Case of Java 8 Default Methods</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(4).pdf" style="text-decoration:none;">Trace-based Debloat for Java Bytecode</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(5).pdf" style="text-decoration:none;">Java Applications Development Based on Component and Metacomponent Approach</a></li>
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(6).pdf" style="text-decoration:none;">A comparison of three programming languages for a full-edged next-generation sequencing tool</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(7).pdf" style="text-decoration:none;">Java Web Design Frameworks: Review of Java Frameworks For Web Applications</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(8).pdf" style="text-decoration:none;"> Reflection Analysis for Java</a></li>
+   <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(9).pdf" style="text-decoration:none;">
+A Variational Approach To Edge Detection </a></li>
+  
+   
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(10).pdf" style="text-decoration:none;">e JAVA Chatbot for Learning Programming</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(11).pdf" style="text-decoration:none;">Eclipse Platform Technical Overview</a></li>
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(12).pdf" style="text-decoration:none;">Study on Design and Implementation of JAVA Programming Procedural Assessment Standard</a></li>
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(13).pdf" style="text-decoration:none;">Making the future safe for the past: Adding Genericity to the Java Programming Language</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(14).pdf" style="text-decoration:none;">Java Applet</a></li>
+                              
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(15).pdf" style="text-decoration:none;">Java Basics</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(16).pdf" style="text-decoration:none;">Writing Robust Java Code:
+The AmbySoft Inc. Coding Standards for Java</a></li>
+
+  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(17).pdf" style="text-decoration:none;">
+Differences between Java Concepts</a></li>   
+  
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(18).pdf" style="text-decoration:none;">Exception handling in java</a></li> 
+
+  
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(19).pdf" style="text-decoration:none;">Teach yourself Java module</a></li> 
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(20).pdf" style="text-decoration:none;"> Java programming for C/C++ developers</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(21).pdf" style="text-decoration:none;">The Java Language
+Specification</a></li>
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(22).pdf" style="text-decoration:none;">Kotlin Language Documentation</a></li> 
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(23).pdf" style="text-decoration:none;"> Language Oriented Programming: The Next Programming Paradigm</a></li> 
+ 
+
+   <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(24).pdf" style="text-decoration:none;">Automatic Source Code Summarization of Context for Java Methods</a></li>
+ 
+   <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(25).pdf" style="text-decoration:none;">Transparent Acceleration of Java-based Deep Learning Engines</a></li>                              
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(26).pdf" style="text-decoration:none;">Neural Network Implementation in Java</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(27).pdf" style="text-decoration:none;">C++ for Java Programmers</a></li>
+   
+ 
+   <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(28).pdf" style="text-decoration:none;">The Scratch Programming Language
+and Environment</a></li>
+ 
+   <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/jva(29).pdf" style="text-decoration:none;">The benefits of using Java as a
+high-performance language for mission critical financial applications</a></li>                              
+
+</ul>
+
+</br>
+
+
+
+
+
 <h3>Books:</h3>
 <hr>
 
