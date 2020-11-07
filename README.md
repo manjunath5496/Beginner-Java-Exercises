@@ -2621,8 +2621,19 @@ Beginners</a></li>
 </ul>
 
 </br>
+<h2> </h2>
+<ul>
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/JavaFX animated login and sign up form.rar" style="text-decoration:none;">JavaFX animated login and sign up form</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Payroll System.rar" style="text-decoration:none;">Payroll System</a></li>
 
-
+ 
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Phone Book App.rar" style="text-decoration:none;">Phone Book Application</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Simple Banking System.rar" style="text-decoration:none;">Simple Banking System</a></li>
+  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Text to Morse Code and Binary.rar" style="text-decoration:none;">Text to Morse Code and Binary</a></li>
+ 
+ 
+</ul>
+</br>
 
 
 
