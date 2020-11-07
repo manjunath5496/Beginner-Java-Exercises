@@ -2506,6 +2506,207 @@ class MyClass {
 ```
 ----------------------------------------
 
+# Question 71
+
+### **Question:**
+
+> ***Write a program to determine whether one string is a rotation of another.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {    
+    public static void main(String[] args) {    
+        String str1 = "abcde", str2 = "deabc";    
+            
+        if(str1.length() != str2.length()){    
+            System.out.println("Second string is not a rotation of first string");    
+        }    
+        else {    
+            //Concatenate str1 with str1 and store it in str1    
+            str1 = str1.concat(str1);    
+             //Check whether str2 is present in str1    
+            if(str1.indexOf(str2) != -1)    
+                System.out.println("Second string is a rotation of first string");    
+            else    
+                System.out.println("Second string is not a rotation of first string");    
+        }    
+    }    
+}
+```
+----------------------------------------
+
+# Question 72
+
+### **Question:**
+
+> ***Write a program to find the duplicate characters in a string.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {    
+     public static void main(String[] args) {    
+        String string1 = "Great responsibility";    
+        int count;    
+            
+        //Converts given string into character array    
+        char string[] = string1.toCharArray();    
+            
+        System.out.println("Duplicate characters in a given string: ");    
+        //Counts each character present in the string    
+        for(int i = 0; i <string.length; i++) {    
+            count = 1;    
+            for(int j = i+1; j <string.length; j++) {    
+                if(string[i] == string[j] && string[i] != ' ') {    
+                    count++;    
+                    //Set string[j] to 0 to avoid printing visited character    
+                    string[j] = '0';    
+                }    
+            }    
+            //A character is considered as duplicate if count is greater than 1    
+            if(count > 1 && string[i] != '0')    
+                System.out.println(string[i]);    
+        }    
+    }    
+}     
+
+```
+----------------------------------------
+
+
+# Question 73
+
+### **Question:**
+
+> ***Write a program to find the duplicate words in a string.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {    
+    public static void main(String[] args) {    
+        String string = "Big black bug bit a big black dog on his big black nose";    
+        int count;    
+            
+        //Converts the string into lowercase    
+        string = string.toLowerCase();    
+            
+        //Split the string into words using built-in function    
+        String words[] = string.split(" ");    
+            
+        System.out.println("Duplicate words in a given string : ");     
+        for(int i = 0; i < words.length; i++) {    
+            count = 1;    
+            for(int j = i+1; j < words.length; j++) {    
+                if(words[i].equals(words[j])) {    
+                    count++;    
+                    //Set words[j] to 0 to avoid printing visited word    
+                    words[j] = "0";    
+                }    
+            }    
+                
+            //Displays the duplicate word if count is greater than 1    
+            if(count > 1 && words[i] != "0")    
+                System.out.println(words[i]);    
+        }    
+    }    
+}    
+```
+----------------------------------------
+
+# Question 74
+
+### **Question:**
+
+> ***Write a program to find maximum and minimum occurring character in a string.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {    
+   
+   public static void main(String[] args) {    
+      String str = "grass is greener on the other side";    
+      int[] freq = new int[str.length()];    
+      char minChar = str.charAt(0), maxChar = str.charAt(0);    
+      int i, j, min, max;            
+          
+      //Converts given string into character array    
+      char string[] = str.toCharArray();    
+          
+      //Count each word in given string and store in array freq    
+      for(i = 0; i < string.length; i++) {    
+          freq[i] = 1;    
+          for(j = i+1; j < string.length; j++) {    
+              if(string[i] == string[j] && string[i] != ' ' && string[i] != '0') {    
+                  freq[i]++;    
+                      
+                  //Set string[j] to 0 to avoid printing visited character    
+                  string[j] = '0';    
+              }    
+          }    
+      }    
+          
+      //Determine minimum and maximum occurring characters    
+      min = max = freq[0];    
+      for(i = 0; i <freq.length; i++) {    
+              
+          //If min is greater than frequency of a character     
+          //then, store frequency in min and corresponding character in minChar    
+          if(min > freq[i] && freq[i] != '0') {    
+              min = freq[i];    
+              minChar = string[i];    
+          }    
+          //If max is less than frequency of a character     
+          //then, store frequency in max and corresponding character in maxChar    
+          if(max < freq[i]) {    
+              max = freq[i];    
+              maxChar = string[i];    
+          }    
+      }    
+          
+      System.out.println("Minimum occurring character: " + minChar);    
+      System.out.println("Maximum occurring character: " + maxChar);    
+  } 
+}  
+```
+----------------------------------------
+
+# Question 75
+
+### **Question:**
+
+> ***Write a program to separate the Individual Characters from a String.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```Java
+public class MyClass {  
+    public static void main(String[] args) {  
+        String string = "characters ";  
+  
+        //Displays individual characters from given string  
+        System.out.println("Individual characters from given string: ");  
+  
+        //Iterate through the string and display individual character  
+        for(int i = 0; i < string.length(); i++){  
+            System.out.print(string.charAt(i) + " ");  
+        }  
+    }  
+}  
+```
+----------------------------------------
 
 
 
