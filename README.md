@@ -2631,7 +2631,9 @@ Beginners</a></li>
  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Simple Banking System.rar" style="text-decoration:none;">Simple Banking System</a></li>
   <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Text to Morse Code and Binary.rar" style="text-decoration:none;">Text to Morse Code and Binary</a></li>
  
- 
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Baby Care Project.rar" style="text-decoration:none;">Baby Care Project</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Broadcasting Chat Server Project.rar" style="text-decoration:none;">Broadcasting Chat Server Project</a></li>
+  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/City Classified and Search.rar" style="text-decoration:none;">City Classified and Search</a></li>
 </ul>
 </br>
 
