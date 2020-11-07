@@ -2639,7 +2639,11 @@ Beginners</a></li>
  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Connect Globe.rar" style="text-decoration:none;">Connect Globe</a></li>
   <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Fee Management.rar" style="text-decoration:none;">Fee Management</a></li>
   
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Library Management System.rar" style="text-decoration:none;">Library Management System</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Mailcasting Project.rar" style="text-decoration:none;">Mailcasting Project</a></li>
+  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Pharmacy Project.rar" style="text-decoration:none;">Pharmacy Project</a></li>
   
+  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/Transport Company.rar" style="text-decoration:none;">Transport Company</a></li>   
   
   
   
